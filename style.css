@@ -1,0 +1,305 @@
+/* GLOBAL */
+
+* {	margin:0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
+	text-decoration: none}
+html, body {background:left top #fff;
+	font-family:Tahoma, Arial, helvetica, sans-serif;
+	font-size:100%;
+	line-height:1em;
+	color:#454545;
+	min-width:1000px;
+	height: 100%;
+	margin:0;
+	padding:0;
+	max-height:none;
+	font-weight: normal}
+object {vertical-align:top;
+	outline:none}
+input,textarea,select {font-family:Tahoma,Arial,helvetica,sans-serif;	
+	font-size:1em;
+	vertical-align:middle;
+	font-weight:normal}
+p {	margin:0;
+	padding:0;
+	font-style: normal;
+	line-height:1.83em;
+	margin-bottom:20px;
+	text-decoration: none}
+img {border:0;
+	vertical-align: central;
+	text-align:center}
+ul,ol {list-style:none}
+#main {width:auto;
+	margin:0 auto;
+	overflow: auto}
+#header,#content,#footer {font-size: 0.75em}
+
+
+/* ALIGMENT */
+
+.fleft {float:left}
+.buttons {float:right}
+.clear {clear:both}
+.alignright {text-align:right}
+.aligncenter {text-align:center}
+.wrapper {width:100%;
+	overflow:hidden}
+.extra-wrap {overflow:hidden}
+.container {width:100%}
+
+
+/* LISTS */
+
+.box-list {width:100%;overflow:hidden}
+.box-list li {float:left;width:305px}
+.box-list li .box1 p {margin:0}
+.box-list li .box1 p a {font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color:#454545}
+.box-list li.alt {margin-right:0}
+.box-list li.last {margin-right:0}
+.list {margin-top:-14px}
+.list li {line-height:1.83em;
+	width:100%;
+	overflow:hidden;
+	vertical-align:top;
+	padding-top:14px}
+.list li img {float:left;margin-right:20px}
+.list li a {font-weight:bold;text-decoration:none}
+.list li a:hover {text-decoration:underline}
+.box-list li .box1 p a {font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color:#880003}
+
+
+/* TXT,LINKS,LINES,TITLES,COLORS */
+
+a {color:#880003;
+	outline:none}
+.noir {color: black}
+a:hover {text-decoration:none}
+h2 {font-size:40px;line-height:1.2em;margin-bottom:10px}
+h2 b {display:block;padding-left:95px;margin-top:-12px}
+h3 {font-size:32px;
+	line-height:1.2em;
+	letter-spacing:-1px;
+	margin-bottom:15px}
+h4 {font-size:24px;
+	margin-bottom:10px;
+	line-height: 1.2em}
+b, strong {color:#880003}
+.link1 {font-size:16px;text-decoration:none;color:#fff;float:left;text-transform:uppercase;display:inline-block;cursor:pointer;background:url(images/button-left.png) no-repeat left top}
+.link1 em {display:inline-block;padding:0 5px;background:url(images/button-right.png) no-repeat right top}
+.link1 b {display:inline-block;background:url(images/button-tail.gif) repeat-x left top;padding:3px 9px 4px 9px}
+.news_title {font-weight: bold;
+	color: #880003;
+	font-size:24px;
+	padding-bottom:10px;
+	line-height: 1.2em;
+	padding-right: 20px}
+.underline_title {border-bottom: solid #880003 2px}
+
+
+/* BOXES */
+.box {background:#fff;width:100%;margin-bottom:20px}
+.box .inner {padding:0 0 10px 21px}
+.box1 {width:280px;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	background-color: #FFF;
+	background-image: url(images/box1-bot.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom}
+.box1 .inner {padding:34px 22px 28px 29px}
+.breadcrumb {border-bottom: dashed #880003 1px;
+	margin-left: 7px;
+	margin-right: 7px}
+.underline_text {border-bottom: dashed #880003 1px}
+.simple_underline {text-decoration: underline}
+
+
+/* HEADER */
+
+#header {height:419px;position:relative}
+#header .row-1 {height:88px}
+#header .row-1 .fleft {padding-right: 0;
+	padding-bottom: 0;
+	height: 88px;
+	width: 300px}
+#header .row-1 .buttons {padding:34px 34px 0 0; margin:0}
+#header .row-1 .buttons ul li {float:left;padding-left:15px}
+#header .row-2 {background:url(images/nav-tail.gif) repeat-x left top;margin-bottom:-3px;position:relative}
+#header .row-2 .left {background:url(images/nav-left.gif) no-repeat left top}
+#header .row-2 ul {height:58px;width:100%;overflow:hidden;background:url(images/nav-right.gif) no-repeat right top}
+#header .row-2 ul li {float:left;
+	text-transform:uppercase;
+	font-size:16px;
+	line-height:1.2em;
+	background:url(images/divider.gif) no-repeat right 4px;
+	padding-right: 2px;
+	padding-left: 0}
+#header .row-2 ul li.last {background:none;padding-right:0}
+#header .row-2 ul li.last a {width:188px}
+#header .row-2 ul li a {text-decoration:none;
+	color:#fff;
+	width:186px;
+	text-align:center;
+	display:block;
+	cursor:pointer;
+	background:url(images/spacer.gif);
+	padding-top: 14px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0}
+#header .row-2 ul li a {display:block;
+	height:40px}
+#header .row-2 ul li a:hover {background:url(images/nav-act.png) repeat-x left bottom}
+#header .row-2 ul li a:hover span,
+#header .row-2 ul li a.active span {background-repeat: no-repeat;
+	background-position: center bottom}
+#header .extra {position:absolute;margin-left: 10%;
+  margin-right: 10%;top:142px;overflow:hidden}
+
+
+/* CONTENT */
+
+#content {padding-bottom:30px;min-width:940px;margin-left: 10%;
+  margin-right: 10%}
+#underlined-hover {text-decoration: none;
+	color: #880003}
+#underlined-hover:hover {border-bottom: dashed 1px}
+/*#content .ic, #content .ic a {border:0;float:right;background:#000;color:#f00;width:100%;line-height:10px;font-size:10px;overflow:hidden;padding:0}*/
+
+
+/*DESCRIPTION*/
+
+.description {margin-top: 10px;
+	margin-left: 15px;
+	max-width:800px;
+	overflow: hidden}
+.description h3, .description h4 {padding-left: 30px}
+.news {margin-left: 15px;
+	margin-right: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	margin-bottom:2px}
+
+
+/* FOOTER */
+
+#footer {background:url(images/footer-tail.gif) repeat-x left top #000;
+	margin-left: 0;
+ 	margin-right: 0;
+	text-align:center;
+	color:#fff;
+	clear:both;
+	line-height:1.67em;
+	text-decoration: none;
+	padding-top: 18px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 23px;
+	margin-top: 20px;
+	font-size:10px;
+	overflow: hidden;
+	margin-right: 0}
+#footer .bottom {position: relative}
+#footer a {color: #fff;
+	text-decoration: none}
+#footer a:hover {color: #880003}
+#footer #mentions_legales {position: relative;
+	border-top: gray double 2px;
+	width: 230px;
+	margin: auto;	
+	margin-top: 5px;
+	padding-top: 5px}
+#footer #mentions_legales a:hover {border-bottom: dashed 1px}
+#footer #mentions_legales #conditions {border-left: dashed 1px}
+#footer #mentions_legales #mentions {margin-right: 7px}
+#footer #mentions_legales #condition_a {margin-left: 6px}
+
+
+/*CONDITIONS D'UTILISATION*/
+
+.corps_condition h2{font-size: 20px}
+.corps_condition {max-width: 900px}
+.corps_condition h1 {margin-top: 50px}
+.corps_condition h2.rouge {color: #880003}
+
+
+/*CONTACT*/
+
+.phone_number b{font-weight: normal}
+.phone_number {border-bottom: dashed #880003 1px;
+	font-weight: bold}
+	/*GOOGLE,FACEBOOK,LINKED_IN,TWITTER!*/
+.google_blue {color: #436DE2;
+	font-weight: bold}
+.google_red {color: #E01D30;
+	font-weight: bold}
+.google_yellow {color: #F69C04;
+	font-weight: bold}
+.google_green {color: #00890E;
+	font-weight: bold}
+.box-list li .box1 p a.blue_facebook {font-weight: bold;
+	background-color: #074590;
+	color: white;
+	padding-right: 3px;
+	padding-left: 3px}
+.blue_facebook {font-weight: bold;
+	background-color: #074590;
+	color: white;
+	padding-right: 3px;
+	padding-left: 3px}
+#linkedin_linked {color: black;
+	font-weight: bold}
+#linkedin_in {color: white;
+	background-color: #218BB5}
+.twitter {color: #63D0F9}
+
+/*OTHER*/
+
+.dashes {text-align: center;	
+	position: relative}
+.post {padding: 2px 30px 2px 16px;
+	background: url(images/img08.jpg) no-repeat left ;
+	border-bottom: 1px #BDBDBB dotted;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	color: #66665E}
+.arrow {margin-left:29px;
+	margin-right:16px;
+	margin-bottom:2px}
+.post_news-arrow {padding: 2px 5px 5px 0px;
+	border-bottom: 1px #BDBDBB dotted;
+	color: #66665E;		
+	width: 455px}
+.post_news {padding: 2px 5px 5px 0px;
+	border-bottom: 1px #BDBDBB dotted;
+	color: #66665E;		
+	width: 280px}
+	#up {position: fixed;
+	right: 8%;
+	top: 50%}
+.donotdisplay {display:none}
+.list_style {list-style-type: circle;
+		list-style-position: inside}
+.tabulation {padding-left: 50px}
+	/*NOTA_BENE*/
+.box-list li .box1 p a sup {font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color:#454545}
+sup {font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color:#454545}
